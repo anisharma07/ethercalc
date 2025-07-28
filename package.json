@@ -5,7 +5,7 @@
   "homepage": "http://ethercalc.net/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/audreyt/ethercalc"
+    "url": "git+https://github.com/audreyt/ethercalc.git"
   },
   "dependencies": {
     "cors": "*",
@@ -37,12 +37,20 @@
   },
   "subdomain": "ethercalc",
   "bin": {
-    "ethercalc": "./bin/ethercalc"
+    "ethercalc": "bin/ethercalc"
   },
   "scripts": {
     "start": "node app.js"
   },
   "engines": {
     "node": ">= 0.8.x"
+  },
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/audreyt/ethercalc/issues"
   }
 }
